@@ -1,0 +1,5 @@
+1. Understanding Pipeline and VLA (high level)
+2. Understanding Inference Algorithm
+3. Decide the resources we use to achieve the project, using what computer to run host, what FPGA board should I use
+4. How do I apply the PCIe communication
+
