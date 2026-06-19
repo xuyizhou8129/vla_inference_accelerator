@@ -14,3 +14,10 @@ Per inference:
 - Added some potential software extensions to play around with in extension.md, focuses on learning about kernals and CUDA
 - Hardware design steps also documented in extension.md
 - Planning on milestones and goals
+
+Milestones:
+1-Golden software model in python
+2-RTL sim vs Golden
+2'- CUDA track
+3 - Hardware extensions
+4 - OpenVLA integration

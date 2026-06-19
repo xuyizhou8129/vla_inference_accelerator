@@ -2,4 +2,10 @@
 2. Understanding Inference Algorithm
 3. Decide the resources we use to achieve the project, using what computer to run host, what FPGA board should I use
 4. How do I apply the PCIe communication
-
+--
+1. Come up with milestones
+2. Figure out the interface from OpenVLA-OFT, inputs/outputs
+3. Figure out how to build software models for hardware
+4. Figure out how to use cocotb
+5. Figure out the architecture of the hardware design
+6. Figure out where do I run host and what FPGA board to use (That can be from Plab after school starts)
