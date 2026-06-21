@@ -2,3 +2,6 @@
 .playwright-mcp
 .mcp.json
 docs/summary_from_chat.md
+
+docs/reference/action_heads.py
+docs/reference/constants.py
