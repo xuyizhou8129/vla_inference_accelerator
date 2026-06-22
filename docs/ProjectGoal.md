@@ -2,7 +2,7 @@
 
 ## Summary
 
-Build a small FPGA-based accelerator that executes the action-generation stage of a robot policy model, and benchmark whether the hardware path achieves lower and more deterministic latency than CPU execution.
+Build an FPGA-based accelerator that executes the OpenVLA-OFT `L1RegressionActionHead` (`MLPResNet`, ~151M params, 8 chunk steps per inference) and benchmark whether the hardware path achieves lower and more deterministic latency than CPU/GPU execution.
 
 ## Problem Statement
 
@@ -27,7 +27,7 @@ An FPGA offers fixed-function, cycle-deterministic execution with a predictable 
 ## Scope
 
 **In scope**
-- Software model of the policy action head (standalone, used as reference and MVP)
+- Software golden model of `L1RegressionActionHead` / `MLPResNet` matching `docs/reference/action_heads.py`
 - RTL implementation of the action-generation network on FPGA
 - PCIe host-device driver and DMA data path
 - Latency benchmarking harness (CPU vs FPGA)
