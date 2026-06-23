@@ -72,3 +72,5 @@ Linear(hidden_dim → output_dim)
 │
 ▼
 y
+
+Parameters Needed:

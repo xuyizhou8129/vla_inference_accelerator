@@ -9,3 +9,5 @@
 4. Figure out how to use cocotb
 5. Figure out the architecture of the hardware design
 6. Figure out where do I run host and what FPGA board to use (That can be from Plab after school starts)
+7. Figure out how PCIe works and how the PCIe-DMA block works in this project
+8. Figure out the architecture
